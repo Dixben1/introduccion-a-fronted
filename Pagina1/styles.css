@@ -1,0 +1,119 @@
+body{
+    background-color: #edefee;
+    font-family: serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+header>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}
+
+nav{
+    background-color: #333;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav ul{
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding-inline-start: 0rem;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+nav ul a{
+    color: #edefee;
+    text-decoration: none;
+}
+
+nav ul a:active{
+    text-decoration: underline;
+}
+
+nav ul a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+section{
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article{
+    flex: 1;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+article img{
+    height: 300px;
+}
+
+table{
+    margin: auto;
+}
+
+main article{
+    background-color: #fbdabb79;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#hero{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3))
+    ,url("florerias.jpg");
+    background-size: cover;
+    background-position: 75%;
+    color: white;
+}
+
+#hero p{
+    max-width: 75%;
+}
+
+footer{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem 1rem;
+}
+
+div img{
+    height: 200px;
+}
+
+footer p{
+    border-top: #333;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    text-align: right;
+}
+
